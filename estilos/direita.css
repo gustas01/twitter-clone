@@ -1,0 +1,18 @@
+.direita{
+    margin: 10px  35px 20px 35px;
+    width: 75%;
+}
+
+.direita input{
+    height: 38px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    background-color:  rgb(40, 56, 64);
+    border: none;
+}
+
+.trending-topics{
+    display: flex;
+    flex-direction: column;
+}

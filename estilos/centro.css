@@ -1,0 +1,104 @@
+/*PARTE CENTRAL SUPERIOR DA TELA*/
+.centro-geral{
+    display: flex;
+}
+
+.topo{
+    font-size: 1.1rem;
+    font-weight: 900;
+    width: 600px;
+    height: 180px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+
+.topo-pagina-inicial{
+    padding: 8px ;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    display: block;
+}
+
+.topo-pagina-inicial a{
+    display: block;
+}
+
+.topo .foto-perfil img{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    margin-right: 12px;
+}
+
+.foto-perfil a{
+    width: fit-content;
+    padding: 0;
+}
+
+.text-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.formulario-tweetar{
+    display: flex;
+    height: 114px;
+    margin: 8px 8px 0px 8px;
+    
+}
+
+.formulario-tweetar textarea{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(20, 36, 44);
+    color: white;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.botoes-e-botao-tweetar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    /* height: 30%; */
+    justify-content: space-between;
+
+}
+
+
+.botoes a{
+    border-radius: 40px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.botoes a img{
+    height: 20px;
+    width: 20px;
+}
+
+.botoes a:hover{
+    background-color: rgba(40, 90, 170, 0.1);
+}
+
+.text-area button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 900;
+    background-color:  rgb(10, 150, 241);
+    outline: none;
+    border: none;
+}
