@@ -15,4 +15,49 @@
 .trending-topics{
     display: flex;
     flex-direction: column;
+    background-color:  rgb(40, 56, 64);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.noticia{ /*aplicando em todos os elementos com a classe notícia*/
+    padding: 8px;
+}
+
+.noticia:not(:first-child){ /*aplicando em todos os elementos com a classe notícia, menos no primeiro filho*/
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-top: 1px solid gray;
+   
+}
+
+.noticia img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+}
+
+h5{
+    font-weight: 1000;
+    padding: 5px;
+}
+
+h6{
+    color: gray;
+    padding: 5px;
+}
+
+
+
+
+
+@media (max-width: 1002px){
+    .direita{
+        display: none;
+    }
 }

@@ -1,13 +1,15 @@
 /*PARTE CENTRAL SUPERIOR DA TELA*/
 .centro-geral{
     display: flex;
+    flex-direction: column;
+    width: 150%;
 }
 
 .topo{
     font-size: 1.1rem;
     font-weight: 900;
-    width: 600px;
-    height: 180px;
+    /* width: 600px; */
+    height: 18%;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
@@ -23,6 +25,7 @@
 .topo-pagina-inicial a{
     display: block;
 }
+
 
 .topo .foto-perfil img{
     width: 50px;
@@ -47,7 +50,7 @@
 
 .formulario-tweetar{
     display: flex;
-    height: 114px;
+    height: auto;
     margin: 8px 8px 0px 8px;
     
 }
@@ -101,4 +104,125 @@
     background-color:  rgb(10, 150, 241);
     outline: none;
     border: none;
+}
+
+/*PARTE DAS PUBLICAÇÕES (MEIO DA TELA)*/
+
+.publicacoes{
+    display: flex;
+    flex-direction: column;
+    /* width: 600px; */
+    /* margin-top: 10px; */
+    border: 1px solid gray;
+}
+
+.publicacoes img:first-child{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+}
+
+.publicacao{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 0;
+    height: auto;
+}
+
+.publicacao:hover{
+    cursor: pointer;
+    background-color: rgb(40, 56, 64);
+}
+
+.conteudo{
+    height: fit-content;
+}
+
+.conteudo p{
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.conteudo img{
+    margin: 10px;
+    width: 95%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.conteudo span{
+    color: gray;
+    font-size: 0.85rem;
+}
+
+.conteudo a:hover{
+    text-decoration: underline;
+}
+
+.comentario:hover{
+    color: skyblue;
+}
+
+.retweet:hover{
+    color: green;
+}
+
+.curtida:hover{
+    color: red;
+}
+
+.botoes-publicacao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacao .conteudo horario:hover{
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 1002px){
+    .centro-geral{
+        width: auto;
+    }
+    .publicacao{
+        height: auto;
+    }
+    .conteudo{
+        height: fit-content;
+    }
+}
+
+@media (max-width: 770px){
+    .centro-geral{
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 560px){
+    .formulario-tweetar{
+        display: none;
+    }
+
+    .publicacao{
+        height: auto;
+    }
+
+    .conteudo img{
+        height: auto;
+    }
+}
+
+@media (max-width: 370px){
+    horario, tag{
+        display: none;
+    }
+
+    
 }
