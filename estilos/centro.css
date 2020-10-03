@@ -138,7 +138,7 @@
 }
 
 .conteudo{
-    height: fit-content;
+    height: fit-content; /*tá mantendo tudo dentro da div quando ela é redimensionada, não deixando vazar em cima de outros elementos*/
 }
 
 .conteudo p{
