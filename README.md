@@ -8,5 +8,7 @@ Inserindo as publicações presentes no meu feed do twitter no momento em que eu
 Descendo mais a página...
 <img src="imagens/publicacaoDois.JPG">
 
+Responsividade similiar à do site original.
+
 Para acessar a aplicação, acesse
 https://gustas01.github.io/twitter-clone/
