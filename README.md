@@ -10,5 +10,5 @@ Descendo mais a página...
 
 Responsividade similiar à do site original.
 
-Para ir à aplicação, acesse
+Para ir à aplicação no GitHub Pages, acesse
 https://gustas01.github.io/twitter-clone/
